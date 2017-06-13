@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context="pl.billog_studio.janigdynie_graimprezowa.Zasady">
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/return_button"
+        android:id="@+id/Zasady_ReturnButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/Zasady_ReturnButton"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/textView2" />
+    </ScrollView>
+</RelativeLayout>

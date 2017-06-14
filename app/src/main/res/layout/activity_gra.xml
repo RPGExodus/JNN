@@ -7,9 +7,11 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryDark"
     tools:context="pl.billog_studio.janigdynie_graimprezowa.Gra">
 
     <ImageButton
+        android:background="@color/colorPrimaryDark"
         android:layout_width="65dp"
         android:layout_height="55dp"
         android:scaleType="fitCenter"
@@ -19,16 +21,20 @@
         android:layout_alignParentStart="true" />
 
     <TextView
+        android:textColor="@color/icons"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textAlignment="textStart"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:paddingTop="70dp"
-        android:text="Large Text"
+        android:text="text"
         android:id="@+id/textView"
         android:layout_below="@+id/Gra_ReturnButton"
         android:layout_centerHorizontal="true" />
 
     <Button
+        android:textColor="@color/icons"
+        android:background="@color/colorPrimary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/losuj_następne"

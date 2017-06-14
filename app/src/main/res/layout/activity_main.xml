@@ -7,31 +7,41 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryDark"
     tools:context="pl.billog_studio.janigdynie_graimprezowa.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:id="@+id/imageView"
+        android:layout_marginBottom="30dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/Bez_nazwy"/>
 
     <Button
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
         android:textAppearance="@style/Buttons"
         android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
         android:text="@string/Graj"
         android:textSize="30sp"
         android:id="@+id/Main_Graj"
         android:layout_below="@+id/imageView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="0dp"/>
 
     <Button
+
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
         android:textAppearance="@style/Buttons"
         android:textStyle="bold"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
         android:text="@string/Zasady"
         android:textSize="30sp"
         android:id="@+id/Main_Zasady"

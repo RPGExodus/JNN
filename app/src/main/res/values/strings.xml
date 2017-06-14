@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Ja nigdy nie - gra imprezowa</string>
+    <string name="app_name">Ja nigdy nie</string>
 
-    <string name="losuj_następne">Następne pytanie</string>
+    <string name="losuj_następne">Losuj</string>
     <string name="Graj">Graj</string>
     <string name="Zasady">Zasady</string>
 

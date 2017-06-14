@@ -3,10 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-
+    android:background="@color/colorPrimaryDark"
     tools:context="pl.billog_studio.janigdynie_graimprezowa.Zasady">
 
     <ImageButton
+        android:background="@color/colorPrimaryDark"
         android:layout_width="65dp"
         android:layout_height="55dp"
         android:scaleType="fitCenter"
@@ -23,10 +24,16 @@
         android:layout_centerHorizontal="true" >
 
         <TextView
+            android:textSize="25dp"
+            android:textColor="@color/icons"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Medium Text"
+            android:text="- Każda grająca osoba powinna zaopatrzyć się w napój wyskokowy (rekomendowane piwo).
+- Wyznaczona osoba, bądź każdy po kolei czyta 'Ja nigdy nie...'
+- Gracze, którzy zrobili zaprzeczoną czynność biorą łyk napoju.
+- Ponowne losowanie.
+- Miłej zabawy!"
             android:id="@+id/textView2" />
     </ScrollView>
 </RelativeLayout>

@@ -6,11 +6,8 @@ import java.util.Random;
 
 public class Pytania_usage {
 
-    String[] baza={"Ja nigdy nie byłem w sex-shopie",
-            "Ja nigdy nie pływałem w morzu",
+    String[] baza={"Ja nigdy nie byłem w sex-shopie.",
             "Ja nigdy nie byłem w klubie ze striptizem",
-            "Ja nigdy nie piłem teqilli",
-            "Ja nigdy nie słuchałem Paderewskiego",
             "Ja nigdy nie chciałem zostać gwiazdą disco polo.",
             "Ja nigdy nie zdradziłem partnera.",
             "Ja nigdy nie byłem zazdrosny o czyjeś 'lajki' na facebook bądź instagram.",
@@ -68,7 +65,7 @@ public class Pytania_usage {
             "Ja nigdy nie uprawiałem seksu grupowego.",
             "Ja nigdy nie oszukiwałem w grach.",
             "Ja nigdy nie żałowałem mojego kierunku na studiach.",
-            "Ja nigdy nie się nie zatrzasnąłem.",
+            "Ja nigdy się nie zatrzasnąłem.",
             "Ja nigdy nie miałem wrażenia że tracę czas oglądając serial.",
             "Ja nigdy nie miałem niespełnionego marzenia z dzieciństwa.",
             "Ja nigdy nie miałem myśli samobójczych.",
@@ -106,7 +103,7 @@ public class Pytania_usage {
             "Ja nigdy nie obgadywałem mojego przyjaciela.",
             "Ja nigdy nie przewróciłem się w miejscu publicznym.",
             "Ja nigdy nie uratowałem komuś życia.",
-            "Ja nigdy nie przegapiłem swojego przystanku przez co pojechałem za daleko.",
+            "Ja nigdy nie przegapiłem swojego przystanku.",
             "Ja nigdy nie zachowałem źle wydanej reszty.",
             "Ja nigdy nie chciałem być tak bogaty żeby już nic nie robić.",
             "Ja nigdy nie przespałem lekcji.",

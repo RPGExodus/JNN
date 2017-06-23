@@ -30,9 +30,13 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="- Każda grająca osoba powinna zaopatrzyć się w napój wyskokowy (rekomendowane piwo).
+
 - Wyznaczona osoba, bądź każdy po kolei czyta 'Ja nigdy nie...'
+
 - Gracze, którzy zrobili zaprzeczoną czynność biorą łyk napoju.
+
 - Ponowne losowanie.
+
 - Miłej zabawy!"
             android:id="@+id/textView2" />
     </ScrollView>

@@ -17,7 +17,8 @@
         android:layout_marginBottom="30dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/Bez_nazwy"/>
+        android:src="@drawable/jnnmenu"
+        ></ImageView>
 
     <Button
         android:textColor="#FFFFFF"

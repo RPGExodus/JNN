@@ -38,3 +38,4 @@ TextView pytanie;
         pytanie.setText(pytania_usage.WybierzLosowePytanie());
     }
 }
+//
